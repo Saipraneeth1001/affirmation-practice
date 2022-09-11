@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #3e3d56;
+  color: #801ae0;
 }
 
 .Navigation {
@@ -88,6 +88,6 @@ button:hover {
   margin: 1em;
   max-width: 600px;
   padding: 2em;
-  color: #f7f7f7;
-  background-color: #444053;
+  color: #131111;
+  background-color: transparent;
 }

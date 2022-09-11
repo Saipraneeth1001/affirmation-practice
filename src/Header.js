@@ -6,8 +6,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="Header">
-        <h1>Affirmation Generator</h1>
-        <img src={lady_on_phone} className="App-logo" alt="logo" />
+        <h1>Daily Affirmations</h1>
       </div>
     );
   }

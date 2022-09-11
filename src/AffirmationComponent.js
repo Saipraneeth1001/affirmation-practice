@@ -4,6 +4,7 @@ import TweetButton from "./TweetComponent";
 import { getRandomQuote } from "./utils/QuoteService";
 
 import "./App.css";
+import TypeComponent from "./components/TypeComponent";
 
 class AffirmationComponent extends React.Component {
   constructor(props) {
@@ -26,24 +27,19 @@ class AffirmationComponent extends React.Component {
       <div className="Affirmation">
         <div className="quote">
           <blockquote>{affirmation.affirmation}</blockquote>
-          <p className="author-citation">{affirmation.author}</p>
+          {/* <p className="author-citation">{affirmation.author}</p> */}
         </div>
 
         <div className="Navigation">
-          <button onClick={this.handleClick}>Next Affirmation</button>
-          <TweetButton
+          {/* <button onClick={this.handleClick}>Next Affirmation</button> */}
+          {/* <TweetButton
             affirmation={affirmation.affirmation}
             author={affirmation.author}
-          />
+          /> */}
+          <TypeComponent affirmation = {affirmation.affirmation} />
         </div>
         <br />
-        <p>Want to add a new affirmation?</p>
-        <a
-          href="https://github.com/M0nica/affirmation_generator"
-          className="contribute-button"
-        >
-          <button>Contribute</button>
-        </a>
+        
       </div>
     );
   }
